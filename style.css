@@ -21,15 +21,22 @@ h1{
 .hobby-list{
     color:red;
     font-size: 18px;
-    font-style: Helvetica;
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2{
     font-size: 24px;
-    font-style: Arial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a{
     font-size: 20px;
+}
+
+img{
+    float: left;
+}
+
+main{
+    clear: left;
 }
