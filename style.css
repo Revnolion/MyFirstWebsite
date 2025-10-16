@@ -1,0 +1,35 @@
+html{
+    background-color: lightgray;
+}
+
+p{
+    color:maroon;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer{
+    color:black;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+h1{
+    color:navy;
+}
+
+.hobby-list{
+    color:red;
+    font-size: 18px;
+    font-style: Helvetica;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24px;
+    font-style: Arial;
+}
+
+a{
+    font-size: 20px;
+}
