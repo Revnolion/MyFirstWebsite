@@ -1,11 +1,16 @@
 html{
-    background-color: lightgray;
+    background-image:linear-gradient(Grey, red);
 }
 
 p{
     color:maroon;
     font-size: 20px;
     font-weight: lighter;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
 }
 
 footer{
@@ -16,12 +21,21 @@ footer{
 
 h1{
     color:navy;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .hobby-list{
     color:red;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: 10px dashed red;
 }
 
 h2{
