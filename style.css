@@ -23,8 +23,8 @@ h1{
     color:navy;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .hobby-list{
@@ -44,7 +44,7 @@ h2{
 }
 
 a{
-    font-size: 20px;
+    font-size: 28px;
 }
 
 img{
