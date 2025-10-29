@@ -1,9 +1,9 @@
 html{
-    background-image:linear-gradient(Grey, red);
+    background-image:linear-gradient(Grey, blue);
 }
 
 p{
-    color:maroon;
+    color:lightgreen;
     font-size: 20px;
     font-weight: lighter;
     margin-top: 70px;
@@ -45,6 +45,7 @@ h2{
 
 a{
     font-size: 28px;
+    
 }
 
 img{
@@ -79,3 +80,5 @@ main{
     background-color: #04AA6d;
     color: white;
 }
+
+
