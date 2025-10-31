@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta description="Evan's Life">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Evan's Life">
     <title>Introducing Evan</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <header>
     <div class="navbar">
       <a class="active" href="#home">Home</a>
+      <a href="portfolio.html">Portfolio</a>
       <a href="about.html">About Me</a>
     </div>
   </header>
@@ -21,18 +22,20 @@
             This website will contain information about my life, what I work on, and projects I've worked on as part of my 
             hobbies! 
           </p>
-          <!--This will be a link to my more detailed About Me page!-->
+          <!-- This is a link to my hobby list on the same page! -->
+          <p><a href="#hobbylist">Check out my hobby list!</a></p>
+          <!-- This will be a link to my more detailed About Me page! -->
           <a href="about.html">About Me!</a>
           <br>
           <br>
-          <!--I will be including a link to my Linkedin profile here-->
-          <a href="https://www.linkedin.com/in/evan-g-johnson">Linkedin Profile</a>
+          <!-- I will be including a link to my Linkedin profile here, this opens in a new tab! -->
+          <a href="https://www.linkedin.com/in/evan-g-johnson" target="_blank">Linkedin Profile</a>
           
           <!--This next section lists my hobbies!-->
           <h2>
             My Hobbies
           </h2>
-          <ul class="hobby-list">
+          <ul id="hobbylist" class="hobby-list">
             <li>Playing Video Games</li>
             <li>Watching Anime</li>
             <li>Working on Video Games</li>

@@ -10,15 +10,22 @@
     text-align: center;
     padding: 10px 12px;
     font-size: 16px;
-    background-color: darkred;
+    background-color: white;
 }
 
 .navbar a:hover{
-    background-color: #ddd;
+    background-color: red;
     color: black;
 }
 
 .navbar a.active{
     background-color: #04AA6d;
     color: white;
+}
+.p{
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
