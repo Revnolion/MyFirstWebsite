@@ -29,3 +29,13 @@
     margin-left: 150px;
     margin-right: 150px;
 }
+
+.responsive_img{
+    float: left;
+    max-width: 50%;
+    height: auto;
+}
+
+.h1{
+    float: bottom;
+}
