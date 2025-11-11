@@ -29,15 +29,24 @@ main{
     clear: left;
 }
 
-.hobby-list{
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 24px;
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 400;
+.hobby-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.hobby-list li{
+    background-color: #04AA6d;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 h2{
@@ -57,6 +66,7 @@ a:hover{
     text-decoration: underline;
 }
 
+/* Class for making images on the page more responsive */
 .responsive_img{
     max-width: 100%;
     height: auto;
@@ -75,7 +85,7 @@ a:hover{
     position: sticky;
     top: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    z-index: 1000;
+    z-index: 1000; /* Keeps the navbar on top of other content on the page */
 }
 
 .navbar a {

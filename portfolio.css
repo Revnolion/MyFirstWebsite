@@ -1,3 +1,21 @@
+.project-img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.sample-img{
+    flex: 1 1 48%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
 .navbar{
     background-color: #333;
     display: flex;
@@ -52,7 +70,7 @@ h1{
 
 .Container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stacks my different projects vertically */
     gap: 10px;
     width: 90%;
     margin: 0 auto;
@@ -84,6 +102,16 @@ h3{
 /*. Media Queries .*/
 
 @media screen and (max-width: 600px){
+    .project-img-gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sample-img{
+        flex: 1 1 100%;
+        max-width: 90%;
+    }
+
     .navbar{
         flex-direction: column;
         width: 100%;
@@ -94,10 +122,12 @@ h3{
         width: 100%;
     }
 
+    /* Makes the container full width on mobile devices */
     .Container{
         width: 100%;
     }
 
+    /* Makes the column for projects wide on mobile devices */
     .Column{
         width: 95%;
         margin: 10px auto;
