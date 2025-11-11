@@ -94,3 +94,25 @@ a{
     flex-direction: column;
 }
 }
+
+@media screen and (max-width: 480px){
+    .Column h2{
+        font-size: 22px;
+    }
+
+    .Column p{
+        font-size: 1.0em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar a{
+        text-align: center;
+        width: 100%;
+    }
+}

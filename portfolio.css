@@ -64,8 +64,6 @@ h1{
     width: 65%;
     padding: 25px;
     margin: 10px;
-    float: left;
-    margin-right: 2%;
     border: 10px dashed rgb(63, 77, 136);
 }
 html{
@@ -84,3 +82,40 @@ h3{
 }
 
 /*. Media Queries .*/
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar a{
+        text-align: center;
+        width: 100%;
+    }
+
+    .Container{
+        width: 100%;
+    }
+
+    .Column{
+        width: 95%;
+        margin: 10px auto;
+        float: none;
+        margin-right: auto;
+    }
+
+    .responsive_img{
+        max-width: 100%;
+        float: none;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 1.6em;
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+}

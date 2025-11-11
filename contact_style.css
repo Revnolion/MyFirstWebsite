@@ -1,0 +1,96 @@
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.info-card{
+    flex: 2;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.info-card h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.info-card p {
+  text-align: center;
+  margin-bottom: 30px; 
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.my-image{
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.my-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.info-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.info-label{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    text-align: right;
+}
+
+.info-value{
+    font-size: 1.2em;
+    color: #555
+}
+
+.info-value a{
+    color: #04aa6d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-value a:hover{
+    text-decoration: underline;
+}
+
+/*. Media Queries .*/
+@media screen and (max-width: 768px){
+    .contact-wrapper{
+        flex-direction: column;
+    }
+
+    .info-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .info-label{
+        text-align: left;
+        font-size: 1em;
+        color: #555
+    }
+
+    .info-value{
+        text-align: left;
+        font-size: 1.1em;
+    }
+}
