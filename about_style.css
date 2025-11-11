@@ -1,40 +1,55 @@
+html{
+    background: linear-gradient(to bottom, #1e3c72, #a9d6e5, #2a5298);
+    background-color: #1e3c72;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
 .Container{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px 0 auto;
 
 }
 
 .Column{
-    width: 33.33%;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
     padding: 25px;
     margin: 10px;
-    font-weight: bolder;
-    border: 5px dashed white;
-    float: left;
-    margin-right: 2%;
 }
 
-:root{
-    background-color: darkcyan;
+.Column p {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #f0f0f0;
+    line-height: 1.6;
 }
 
-p{
-    font-size: 22px;
-    font-weight: lighter;
-}
-
-header{
+.Column h2 {
+    font-size: 28px;
     text-align: center;
-    font-size: 38px;
-    font-weight: bolder;
+    color: white;
 }
+
 h1{
     font-size: 28px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 a{
     text-align: center;
     font-size: 26px
@@ -42,25 +57,40 @@ a{
 
 .navbar{
     background-color: #333;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
     overflow: hidden;
     position: sticky;
     top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1000;
 }
 
-.navbar a{
-    float: left;
+.navbar a {
     text-align: center;
     padding: 10px 12px;
     font-size: 16px;
     background-color: white;
+    color: #333;
+    text-decoration: none;
 }
 
 .navbar a:hover{
-    background-color: red;
+    background-color: #969696;
     color: black;
 }
 
 .navbar a.active{
     background-color: #04AA6d;
     color: white;
+}
+
+/*. Media Queries .*/
+@media only screen and (max-width: 932px){
+    .Container{
+    flex-direction: column;
+}
 }

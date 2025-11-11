@@ -5,47 +5,45 @@
     <title>Introducing Evan</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <header>
-    <div class="navbar">
-      <a class="active" href="#home">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="about.html">About Me</a>
-    </div>
-  </header>
-    <body>
-      <!--This is the start of my webpage, I use a header with a picture of my cat.-->
-      <h1>Welcome to my website!</h1>
-      <img src="cat.jpg" alt="Jasper, my cat" width="350px" height="600px" class="responsive_img" />
-        <main>
-          <br>
+  <body> 
+    <header>
+      <div class="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Me</a>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home-txt">
+          <h1>Welcome to my website!</h1>
           <p>
             This website will contain information about my life, what I work on, and projects I've worked on as part of my 
-            hobbies! 
+            hobbies! Use the navigation bar at the top of the page to navigate throughout my website!
           </p>
-          <!-- This is a link to my hobby list on the same page! -->
-          <a href="#hobbylist">Check out my hobby list!</a>
-          <br>
-          <br>
-          <!-- This will be a link to my more detailed About Me page! -->
           <a href="about.html">About Me!</a>
           <br>
           <br>
-          <!-- I will be including a link to my Linkedin profile here, this opens in a new tab! -->
           <a href="https://www.linkedin.com/in/evan-g-johnson" target="_blank">Linkedin Profile</a>
-          
-          <!--This next section lists my hobbies!-->
-          <h2>
-            My Hobbies
-          </h2>
-          <ul id="hobbylist" class="hobby-list">
-            <li>Playing Video Games</li>
-            <li>Watching Anime</li>
-            <li>Working on Video Games</li>
-            <li>Programming</li>
-          </ul>
-        </main>
+        </div>
+
+        <div class="home-img">
+          <img src="cat.jpg" alt="Jasper, my cat" width="350px" height="600px" class="responsive_img" />
+        </div>
+
+      </section> <section id="hobbylist" class="hobby-list">
+        <h2>
+          My Hobbies
+        </h2>
+        <ul>
+          <li>Playing Video Games</li>
+          <li>Watching Anime</li>
+          <li>Working on Video Games</li>
+          <li>Programming</li>
+        </ul>
+      </section>
+    </main> 
     <br>
-    <!--My copyright notice at the bottom of the page-->
     <footer>&COPY; 2025 Evan Johnson</footer>
   </body>
 </html>

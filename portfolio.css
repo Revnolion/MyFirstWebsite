@@ -1,20 +1,28 @@
 .navbar{
     background-color: #333;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
     overflow: hidden;
     position: sticky;
     top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1000;
 }
 
-.navbar a{
-    float: left;
+.navbar a {
     text-align: center;
     padding: 10px 12px;
     font-size: 16px;
     background-color: white;
+    color: #333;
+    text-decoration: none;
 }
 
 .navbar a:hover{
-    background-color: red;
+    background-color: #969696;
     color: black;
 }
 
@@ -22,12 +30,12 @@
     background-color: #04AA6d;
     color: white;
 }
-.p{
+
+p{
     font-size: 22px;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
+    font-weight: 600;
+    line-height: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .responsive_img{
@@ -36,7 +44,43 @@
     height: auto;
 }
 
-.h1{
+h1{
     float: bottom;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.Column{
+    background-color: darkgrey;
+    width: 65%;
+    padding: 25px;
+    margin: 10px;
+    float: left;
+    margin-right: 2%;
+    border: 10px dashed rgb(63, 77, 136);
+}
+html{
+    background: linear-gradient(120deg, #1e3c72 33.33%, #ffffff 66.67%, #2a5298 100%);
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Top{
+    color: white;
+}
+
+/*. Media Queries .*/
