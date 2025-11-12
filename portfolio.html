@@ -6,24 +6,25 @@
   <title>Evan's Portfolio</title>
   <link rel="stylesheet" href="portfolio.css">
 </head>
-<header>
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a class="active" href="portfolio.html">Portfolio</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact</a>
-  </div>
-  <h1 class="Top">Portfolio</h1>
-  <h2 class="Top">Projects are ordered from newest to oldest!</h2>
-</header>
 
 <body>
+  <header>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a class="active" href="portfolio.html">Portfolio</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <h1 class="Top">Portfolio</h1>
+    <h2 class="Top">Projects are ordered from newest to oldest!</h2>
+  </header>
   <main>
     <div class="Container">
       <div class="Column">
         <h1>Particle Paint</h1>
         <h2>Project Release: TBA</h2>
         <h2>Engine: Unreal Engine 5</h2>
+        <h2>Programming Language: Blueprints (UE Visual Scripting)</h2>
         <p>
           Particle Paint is a personal project developed in Unreal Engine 5 that functions as a small painting
           application utilizing the engine's native particle systems to create dynamic visual effects.
@@ -38,17 +39,27 @@
           future.
         </p>
         <h3>Project Status: <a>In Active Development</a></h3>
+        <h3>Skills</h3>
+        <ul class="tech-list-stacked">
+          <li>Unreal Engine 5</li>
+          <li>Blueprints (Systems Programming)</li>
+          <li>Image Processing & I/O</li>
+        </ul>
         <h3>Example Drawing (exported from the game):</h3>
         <!--This is a image link to a png image that scales depending on window size!-->
-        <img src="drawing.png" class="sample-img">
+        <div class="centered-drawing">
+          <img src="drawing.png" class="sample-img">
+        </div>
       </div>
 
       <div class="Column">
         <h1>Little Nightmares-Style Camera (Godot Engine Plugin)</h1>
         <h2>Project Completion: November 2025</h2>
         <h2>Engine: Godot</h2>
+        <h2>Programming Language: GDScript</h2>
         <p>
-          This is a reusable plugin developed in GDScript for the Godot Engine. I engineered and implemented this system
+          This is a reusable plugin developed in GDScript for the Godot Engine. I engineered and implemented this
+          system
           to address a complex level design challenge by replicating the confined,
           cinematic camera perspective seen in games like Little Nightmares.
         </p>
@@ -63,7 +74,14 @@
           currently intended for a personal side project, I may commit to a public release as development continues.
         </p>
         <h3>Code Availability: Internal Development Tool</h3>
+        <h3>Skills:</h3>
+        <ul class="tech-list-stacked">
+          <li>Godot Engine (4+)</li>
+          <li>GDScript (OOP)</li>
+          <li>Custom Tool/Plugin Architecture</li>
+        </ul>
         <h3>Cinematic View Examples:</h3>
+        <h3>Screenshot 1: Fixed Position</h3>
 
         <div class="project-img-gallery">
           <img src="LN_Camera_View1.png" alt="Cinematic Fixed Perspective example" class="sample-img">
@@ -79,12 +97,13 @@
           Darkness of Anima was the final project I worked on as part of my studies at the Academy of Interactive
           Entertainment in Seattle, WA.
           This project is a turn-based RPG and was the culmination of 4 months of hard work with 9 people in the Unity
-          game engine.
+          engine.
         </p>
         <p>
           I served as director and as one of the 3 game designers on the project. My primary responsibilities included
           working on level design layouts,
-          building the environments in-engine (using assets from the artists), and directing the team during production.
+          building the environments in-engine (using assets from the artists), and directing the team during
+          production.
           I focused on integrating feedback to ensure continuous improvement.
         </p>
         <p>
@@ -92,6 +111,12 @@
         </p>
         <h3>Project Link:<a href="https://aieseattle.itch.io/darkness-of-anima" target="_blank"> Darkness of Anima</a>
         </h3>
+        <h3>Skills:</h3>
+        <ul class="tech-list-stacked">
+          <li>Unity Engine</li>
+          <li>Level Design/Environmental Narrative</li>
+          <li>Team Leadership and Production Direction</li>
+        </ul>
         <h3>In-Game Screenshots:</h3>
         <div class="screenshot-gallery">
           <img src="DOA_IMG1.png" class="responsive_img">
@@ -117,6 +142,12 @@
         </p>
         <h3>Project Link:<a href="https://aieseattle.itch.io/living-nightmare" target="_blank"> Living Nightmare</a>
         </h3>
+        <h3>Skills:</h3>
+        <ul class="tech-list-stacked">
+          <li>Unity Engine</li>
+          <li>Puzzle Design & Prototyping</li>
+          <li>Design Workflow Management</li>
+        </ul>
         <h3>In-Game Screenshots:</h3>
         <div class="screenshot-gallery">
           <img src="LN_IMG1.png" class="responsive_img">
@@ -125,6 +156,7 @@
       </div>
     </div>
   </main>
+  <footer>&copy; 2025 Evan Johnson</footer>
 </body>
 
 </html>

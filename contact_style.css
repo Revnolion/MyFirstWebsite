@@ -77,6 +77,12 @@
     text-decoration: underline;
 }
 
+footer {
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
 /*. Media Queries .*/
 
 /* Stacks the main columns and the grid */
