@@ -131,6 +131,29 @@ a:hover {
     font-weight: bold;
 }
 
+#focus-list h2 {
+    color: navy;
+    border-bottom: 2px solid #04AA6d;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#focus-list .skill-list li {
+    font-size: 1.1em;
+    padding: 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1 1 250px;
+    line-height: 1.8;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
 /* Class for making images on the page more responsive */
 .responsive_img {
     max-width: 100%;
