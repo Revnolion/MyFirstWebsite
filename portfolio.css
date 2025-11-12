@@ -121,24 +121,27 @@ h3{
     .navbar a{
         text-align: center;
         width: 100%;
+        box-sizing: border-box;
     }
 
     /* Makes the container full width on mobile devices */
     .Container{
         width: 100%;
+        gap: 0;
     }
 
     /* Makes the column for projects wide on mobile devices */
     .Column{
-        width: 95%;
-        margin: 10px auto;
-        float: none;
-        margin-right: auto;
+        width: 100%;
+        padding: 15px 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        max-width: 100%;
     }
 
-    .responsive_img{
+    .responsive_img, .project-img-gallery img{
         max-width: 100%;
-        float: none;
+        box-sizing: border-box;
     }
 
     p{
@@ -146,7 +149,12 @@ h3{
         line-height: 1.6em;
     }
 
-    h1{
+    h1, h2 {
         font-size: 1.8em;
+    }
+
+    h1.Top, h2.Top {
+        position: static;
+        padding-top: 55px;
     }
 }
