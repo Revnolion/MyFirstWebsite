@@ -37,6 +37,7 @@
     background-color: white;
     color: #333;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar a:hover{
@@ -47,6 +48,7 @@
 .navbar a.active{
     background-color: #04AA6d;
     color: white;
+    font-weight: bold;
 }
 
 p{
