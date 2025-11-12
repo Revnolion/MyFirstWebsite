@@ -56,39 +56,6 @@ a {
     font-size: 26px
 }
 
-.navbar {
-    background-color: #333;
-    display: flex;
-    gap: 5px;
-    flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    z-index: 1000;
-}
-
-.navbar a {
-    text-align: center;
-    padding: 10px 12px;
-    font-size: 16px;
-    background-color: white;
-    color: #333;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #969696;
-    color: black;
-}
-
-.navbar a.active {
-    background-color: #04AA6d;
-    color: white;
-}
-
 /* Media Queries */
 
 /* Stacks the three columns when viewed on a tablet */
