@@ -1,4 +1,4 @@
-html{
+html {
     background: linear-gradient(to bottom, #1e3c72, #a9d6e5, #2a5298);
     background-color: #1e3c72;
     min-height: 100vh;
@@ -6,14 +6,14 @@ html{
     color: black;
 }
 
-.title{
+.title {
     text-align: center;
     font-size: 38px;
     font-weight: bolder;
     margin-top: 20px;
 }
 
-.Container{
+.Container {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -22,7 +22,7 @@ html{
 
 }
 
-.Column{
+.Column {
     flex: 1;
     background-color: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -45,18 +45,18 @@ html{
     color: white;
 }
 
-h1{
+h1 {
     font-size: 28px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a{
+a {
     text-align: center;
     font-size: 26px
 }
 
-.navbar{
+.navbar {
     background-color: #333;
     display: flex;
     gap: 5px;
@@ -79,12 +79,12 @@ a{
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: #969696;
     color: black;
 }
 
-.navbar a.active{
+.navbar a.active {
     background-color: #04AA6d;
     color: white;
 }
@@ -92,30 +92,30 @@ a{
 /* Media Queries */
 
 /* Stacks the three columns when viewed on a tablet */
-@media only screen and (max-width: 932px){
-    .Container{
-    flex-direction: column;
-}
+@media only screen and (max-width: 932px) {
+    .Container {
+        flex-direction: column;
+    }
 }
 
 /* Adjusts font size on small mobile devices */
-@media screen and (max-width: 480px){
-    .Column h2{
+@media screen and (max-width: 480px) {
+    .Column h2 {
         font-size: 22px;
     }
 
-    .Column p{
+    .Column p {
         font-size: 1.0em;
     }
 }
 
-@media screen and (max-width: 600px){
-    .navbar{
+@media screen and (max-width: 600px) {
+    .navbar {
         flex-direction: column;
         width: 100%;
     }
 
-    .navbar a{
+    .navbar a {
         text-align: center;
         width: 100%;
     }

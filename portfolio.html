@@ -1,95 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Evan's Portfolio">
-    <title>Evan's Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-  </head>
-  <header>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a class="active" href="portfolio.html">Portfolio</a>
-      <a href="about.html">About Me</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <h1 class="Top">Portfolio</h1>
-    <h2 class="Top">Projects are ordered from newest to oldest!</h2>
-  </header>
-  <body>
-    <main>
-      <div class="Container">
-         <div class="Column">
-            <h1>Particle Paint</h1>
-            <h2>Project Release: TBA</h2>
-            <p>
-                Particle Paint is a small project I've been working on in my free time in Unreal Engine 5. It is a small painting game/software 
-                that utilizes Unreal Engine's particle systems to allow you to draw/paint using particle effects. I have currently developed
-                systems that allows multiple brushes, brush sensitivity (so the particles are bigger depending on mouse stroke), export to
-                a PNG image, and more. I currently have multiple major updates in the works as well. This project will be released to the public
-                in the near future, however I have not decided yet whether I'm going to charge for it or not.
-                (I have also included an example exported drawing from the game below!)
-            </p>
-            <h3>Project Link:<a> Coming in the near future!</a></h3>
-            <br>
-            <!--This is a image link to a png image that scales depending on window size!-->
-            <img src="drawing.png" class="responsive_img">
-        </div>
-        <div class="Column">
-            <h1>Little Nightmares-Style Camera (Godot Engine Plugin)</h1>
-            <h2>Project Completion: November 2025</h2>
-            <p>
-                This was a plugin I developed entirely in the in-engine scripting language, GDScript, as part of a side project in the Godot Engine that I haven't started full work on yet, but I expect to somewhat soon. 
-                This plugin was made to solve a level design challenge I had with making the camera fit the style of Little Nightmares. The system is designed to seamlessly blend 2D-style character movement with a 
-                confined, cinematic 3D camera perspective. My work on the plugin focused heavily on creating the necessary editor integration and scripting to implement a rail system that controls the 
-                camera's fixed position, rotation, and focus points. The plugin is robust, reusuable, and easy to implement across new projects without requiring complex scripting in every scene. This plugin was intended for my side
-                project and as of right now, I have no plans to release it publicly, as I continue to update the plugin though, I might commit to releasing publicly. 
-            </p>
-            <h3>Cinematic View Examples:</h3>
 
-            <div class="project-img-gallery">
-              <img src="LN_Camera_View1.png" alt="Cinematic Fixed Perspective example" class="sample-img">
-              <img src="LN_Camera_View2.png" alt="Example of 2D character movement in 3D world" class="sample-img">
-            </div>
-            <h3>Project Link:<a> Not being released publicly</a></h3>
-            <br>
-        </div>
-        <div class="Column">
-            <h1>Darkness of Anima</h1>
-            <h2>Project Release: July 2022</h2>
-            <p>
-                Darkness of Anima was the final project I worked on as part of my studies at the Academy of Interactive
-                Entertainment in Seattle, WA. This project is a turn-based RPG and was the culmination of 4 months of hard work with 9 people in the 
-                Unity game engine. I served as director and as one of the 3 game designers on the project. Some of my 
-                responsibilites included working on level design layouts, building the environments in-engine as we got assets
-                from the artists, and I directed the team during production, taking suggestions and feedback from fellow peers
-                in development to further improve the game. 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Evan's Portfolio">
+  <title>Evan's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<header>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a class="active" href="portfolio.html">Portfolio</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <h1 class="Top">Portfolio</h1>
+  <h2 class="Top">Projects are ordered from newest to oldest!</h2>
+</header>
 
-                We got the game to a finished prototype state and released it at the end of the school year publicly on the 
-                indie game service itch.io. 
-            </p>
-            <h3>Project Link:<a href="https://aieseattle.itch.io/darkness-of-anima" target="_blank"> Darkness of Anima</a></h3>
-            <br>
-            <img src="DOA_IMG1.png" class="responsive_img">
-            <img src="DOA_IMG2.png" class="responsive_img">
-        </div>
-        <div class="Column">
-            <h1>Living Nightmare</h1>
-            <h2>Project Release: July 2021</h2>
-            <p>
-                Living Nightmare was the final project of my first year at the Academy of Interactive Entertainment in Seattle, WA.
-                This project is a puzzle-horror game and was the result of 2 months of work with 9 people in the Unity engine. I served as the lead game designer
-                on the project. Some of my responsibilites included working on level design layouts, building environments, and 
-                assisting my designer peers throughout production. 
+<body>
+  <main>
+    <div class="Container">
+      <div class="Column">
+        <h1>Particle Paint</h1>
+        <h2>Project Release: TBA</h2>
+        <h2>Engine: Unreal Engine 5</h2>
+        <p>
+          Particle Paint is a small project I've been working on in my free time in Unreal Engine 5. It is a small
+          painting game/software that utilizes Unreal Engine's particle systems to allow you to
+          draw/paint using particle effects.
+        </p>
+        <p>
+          I have developed systems that allows multiple brushes, brush sensitivity (so the particles are bigger
+          depending on mouse stroke), export to a PNG image, and more.
+        </p>
+        <p>
+          I currently have multiple major updates in the works as well. This project will be released to the public in
+          the near future, however I have not decided yet whether I'm going to charge for it or not.
+        </p>
+        <h3>Project Link:<a> Coming in the near future!</a></h3>
+        <h3>Example Drawing (exported from the game):</h3>
+        <!--This is a image link to a png image that scales depending on window size!-->
+        <img src="drawing.png" class="sample-img">
+      </div>
+      <div class="Column">
+        <h1>Little Nightmares-Style Camera (Godot Engine Plugin)</h1>
+        <h2>Project Completion: November 2025</h2>
+        <h2>Engine: Godot</h2>
+        <p>
+          This was a plugin I developed entirely in the in-engine scripting language, GDScript, as part of a side
+          project in the Godot Engine that I haven't started full work on yet, but I expect to somewhat soon.
+        </p>
+        <p>
+          This plugin was made to solve a level design challenge I had with making the camera fit the style of Little
+          Nightmares. The system is designed to seamlessly blend 2D-style character movement with a
+          confined, cinematic 3D camera perspective. My work on the plugin focused heavily on creating the necessary
+          editor integration and scripting to implement a rail system that controls the
+          camera's fixed position, rotation, and focus points.
+        </p>
+        <p>
+          The plugin is robust, reusuable, and easy to implement across new projects without requiring complex scripting
+          in every scene. This plugin was intended for my side project and as of right now,
+          I have no plans to release it publicly, but as I continue to update the plugin, I might commit to releasing
+          publicly in the future.
+        </p>
+        <h3>Project Link:<a> Not being released publicly</a></h3>
+        <h3>Cinematic View Examples:</h3>
 
-                We got the game to a finished prototype state and released it at the end of that school year publicly on the 
-                indie game service itch.io. 
-            </p>
-            <h3>Project Link:<a href="https://aieseattle.itch.io/living-nightmare" target="_blank"> Living Nightmare</a></h3>
-            <br>
-            <img src="LN_IMG1.png" class="responsive_img">
-            <img src="LN_IMG2.png" class="responsive_img">
+        <div class="project-img-gallery">
+          <img src="LN_Camera_View1.png" alt="Cinematic Fixed Perspective example" class="sample-img">
+          <img src="LN_Camera_View2.png" alt="Example of 2D character movement in 3D world" class="sample-img">
         </div>
       </div>
-    </main>
-  </body>
-  </html>
+      <div class="Column">
+        <h1>Darkness of Anima</h1>
+        <h2>Project Release: July 2022</h2>
+        <h2>Engine: Unity</h2>
+        <p>
+          Darkness of Anima was the final project I worked on as part of my studies at the Academy of Interactive
+          Entertainment in Seattle, WA. This project is a turn-based RPG and was the culmination of 4 months of hard
+          work with 9 people in the Unity game engine.
+        </p>
+        <p>
+          This project is a turn-based RPG and was the culmination of 4 months of hard work with 9 people in the Unity
+          game engine. I served as director and as one of the 3 game designers on the project.
+          Some of my responsibilites included working on level design layouts, building the environments in-engine as we
+          got assets from the artists, and I directed the team during production,
+          taking suggestions and feedback from fellow peers in development to further improve the game.
+        </p>
+        <p>
+          We got the game to a finished prototype state and released it at the end of the school year publicly on the
+          indie game service itch.io.
+        </p>
+        <h3>Project Link:<a href="https://aieseattle.itch.io/darkness-of-anima" target="_blank"> Darkness of Anima</a>
+        </h3>
+        <h3>Screenshots:</h3>
+        <img src="DOA_IMG1.png" class="responsive_img">
+        <img src="DOA_IMG2.png" class="responsive_img">
+      </div>
+      <div class="Column">
+        <h1>Living Nightmare</h1>
+        <h2>Project Release: July 2021</h2>
+        <h2>Engine: Unity</h2>
+        <p>
+          Living Nightmare was the final project of my first year at the Academy of Interactive Entertainment in
+          Seattle, WA.
+        </p>
+        <p>
+          This project is a puzzle-horror game and was the result of 2 months of work with 9 people in the Unity engine.
+          I served as the lead game designer
+          on the project. Some of my responsibilites included working on level design layouts, building environments,
+          and assisting my designer peers throughout production.
+        </p>
+        <p>
+          We got the game to a finished prototype state and released it at the end of that school year publicly on the
+          indie game service itch.io.
+        </p>
+        <h3>Project Link:<a href="https://aieseattle.itch.io/living-nightmare" target="_blank"> Living Nightmare</a>
+        </h3>
+        <h3>Screenshots:</h3>
+        <img src="LN_IMG1.png" class="responsive_img">
+        <img src="LN_IMG2.png" class="responsive_img">
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

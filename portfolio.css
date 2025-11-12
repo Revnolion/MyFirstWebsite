@@ -1,4 +1,4 @@
-.project-img-gallery{
+.project-img-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.sample-img{
+.sample-img {
     flex: 1 1 48%;
     max-width: 100%;
     height: auto;
@@ -16,7 +16,7 @@
 }
 
 
-.navbar{
+.navbar {
     background-color: #333;
     display: flex;
     gap: 5px;
@@ -39,113 +39,118 @@
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: #969696;
     color: black;
 }
 
-.navbar a.active{
+.navbar a.active {
     background-color: #04AA6d;
     color: white;
 }
 
-p{
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 2em;
+p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
 }
 
-.responsive_img{
+.responsive_img {
     float: left;
     max-width: 50%;
     height: auto;
 }
 
-h1{
+h1 {
     float: bottom;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Container{
+.Container {
     display: flex;
-    flex-direction: column; /* Stacks my different projects vertically */
+    flex-direction: column;
+    /* Stacks my different projects vertically */
     gap: 10px;
     width: 90%;
     margin: 0 auto;
 
 }
 
-.Column{
+.Column {
     background-color: darkgrey;
     width: 65%;
     padding: 25px;
     margin: 10px;
     border: 10px dashed rgb(63, 77, 136);
 }
-html{
+
+html {
     background: linear-gradient(120deg, #1e3c72 33.33%, #ffffff 66.67%, #2a5298 100%);
 }
-h2{
+
+h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-h3{
+
+h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Top{
+.Top {
     color: white;
 }
 
 /*. Media Queries .*/
 
-@media screen and (max-width: 600px){
-    .project-img-gallery{
+@media screen and (max-width: 600px) {
+    .project-img-gallery {
         flex-direction: column;
         align-items: center;
     }
 
-    .sample-img{
+    .sample-img {
         flex: 1 1 100%;
         max-width: 90%;
     }
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         width: 100%;
     }
 
-    .navbar a{
+    .navbar a {
         text-align: center;
         width: 100%;
     }
 
     /* Makes the container full width on mobile devices */
-    .Container{
+    .Container {
         width: 100%;
     }
 
     /* Makes the column for projects wide on mobile devices */
-    .Column{
+    .Column {
         width: 95%;
         margin: 10px auto;
         float: none;
         margin-right: auto;
     }
 
-    .responsive_img{
+    .responsive_img {
         max-width: 100%;
         float: none;
     }
 
-    p{
+    p {
         font-size: 18px;
         line-height: 1.6em;
     }
 
-    h1{
+    h1 {
         font-size: 1.8em;
     }
 }

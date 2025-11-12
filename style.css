@@ -1,8 +1,8 @@
-html{
+html {
     background-color: #bcbcbc;
 }
 
-p{
+p {
     color: #333;
     font-size: 1.1em;
     font-weight: normal;
@@ -10,26 +10,26 @@ p{
     line-height: 1.6;
 }
 
-footer{
-    color:black;
+footer {
+    color: black;
     font-size: 26px;
     font-weight: bolder;
 }
 
-h1{
-    color:navy;
+h1 {
+    color: navy;
     text-align: left;
     font-size: 36px;
 }
 
-main{
+main {
     width: 90%;
     margin: 20px;
     max-width: 1200px;
     clear: left;
 }
 
-.hobby-list ul{
+.hobby-list ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -39,7 +39,7 @@ main{
     justify-content: center;
 }
 
-.hobby-list li{
+.hobby-list li {
     background-color: #04AA6d;
     color: white;
     padding: 8px 18px;
@@ -49,38 +49,39 @@ main{
     font-weight: 600;
 }
 
-h2{
+h2 {
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a{
+a {
     font-size: 1.1em;
     text-align: center;
     color: #04aa6d;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
 
-.mission{
+.mission {
     font-style: italic;
     font-size: 1.2em;
     color: #444;
     margin-bottom: 25px;
 }
 
-.links{
+.links {
     display: flex;
     gap: 20px;
     margin-top: 30px;
     align-items: center;
 }
 
-.button-link{
+.button-link {
     background-color: #04AA6d;
     color: white;
     padding: 10px 20px;
@@ -90,24 +91,24 @@ a:hover{
     font-weight: bold;
 }
 
-.button-link:hover{
+.button-link:hover {
     background-color: #058f5c;
     text-decoration: none;
 }
 
-.links a:last-child{
+.links a:last-child {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.skills{
+.skills {
     background-color: white;
     padding: 20px 30px;
     border-radius: 8px;
     margin-top: 20px;
 }
 
-.skill-list{
+.skill-list {
     list-style: none;
     padding: 0;
     margin-top: 20px;
@@ -117,7 +118,7 @@ a:hover{
     text-align: center;
 }
 
-.skill-list li{
+.skill-list li {
     font-size: 1.1em;
     padding: 10px 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -126,19 +127,19 @@ a:hover{
     color: #333;
 }
 
-.skill-list li .category-title{
+.skill-list li .category-title {
     font-weight: bold;
 }
 
 /* Class for making images on the page more responsive */
-.responsive_img{
+.responsive_img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 /* This section adjusts the navbar css code */
-.navbar{
+.navbar {
     background-color: #333;
     display: flex;
     gap: 5px;
@@ -149,7 +150,8 @@ a:hover{
     position: sticky;
     top: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    z-index: 1000; /* Keeps the navbar on top of other content on the page */
+    z-index: 1000;
+    /* Keeps the navbar on top of other content on the page */
 }
 
 .navbar a {
@@ -161,17 +163,17 @@ a:hover{
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: #969696;
     color: black;
 }
 
-.navbar a.active{
+.navbar a.active {
     background-color: #04AA6d;
     color: white;
 }
 
-.home{
+.home {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -180,49 +182,49 @@ a:hover{
     border-radius: 8px;
 }
 
-.home-txt{
+.home-txt {
     flex: 2;
 }
 
-.home-img{
+.home-img {
     flex: 1;
     text-align: center;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
 /*. Media Queries .*/
 
-@media screen and (max-width: 768px){
-    .home{
+@media screen and (max-width: 768px) {
+    .home {
         flex-direction: column;
     }
 
-    h1{
+    h1 {
         font-size: 2.0em;
     }
 }
 
-@media screen and (max-width: 600px){
-    .navbar{
+@media screen and (max-width: 600px) {
+    .navbar {
         flex-direction: column;
         width: 100%;
     }
 
-    .navbar a{
+    .navbar a {
         text-align: center;
         width: 100%;
     }
 
-    .links{
+    .links {
         flex-direction: column;
         align-items: stretch;
         gap: 10px;
     }
 
-    .button-link{
+    .button-link {
         text-align: center;
     }
 }
