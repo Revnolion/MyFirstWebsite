@@ -64,7 +64,7 @@
 
 .info-value {
     font-size: 1.2em;
-    color: #555
+    color: #555;
 }
 
 .info-value a {
@@ -98,7 +98,7 @@ footer {
     .info-label {
         text-align: left;
         font-size: 1em;
-        color: #555
+        color: #555;
     }
 
     .info-value {
