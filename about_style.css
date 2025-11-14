@@ -65,6 +65,38 @@ footer {
     font-weight: bolder;
 }
 
+.navbar {
+    background-color: #333;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #969696;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #04AA6d;
+    color: white;
+    font-weight: bold;
+}
+
 /* Media Queries */
 
 /* Stacks the three columns when viewed on a tablet */
