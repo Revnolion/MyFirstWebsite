@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 30px;
     align-items: flex-start;
+    margin-top: 30px;
 }
 
 .info-card {
@@ -11,7 +12,6 @@
     padding: 30px;
     border-radius: 8px;
     margin-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .info-card h1 {
@@ -52,7 +52,6 @@
     gap: 20px;
     max-width: 700px;
     margin: 0 auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .info-label {
@@ -77,10 +76,9 @@
     text-decoration: underline;
 }
 
-footer {
-    color: black;
-    font-size: 26px;
-    font-weight: bolder;
+html {
+    background-color: #e0e0e0;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*. Media Queries .*/

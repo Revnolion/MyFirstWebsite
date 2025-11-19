@@ -2,7 +2,7 @@ html {
     background: linear-gradient(to bottom, #1e3c72, #a9d6e5, #2a5298);
     background-color: #1e3c72;
     min-height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
 
@@ -51,7 +51,10 @@ h1 {
     color: white;
     font-size: 28px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
 }
 
 a {
@@ -73,7 +76,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar a {

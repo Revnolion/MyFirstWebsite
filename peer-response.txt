@@ -1,0 +1,10 @@
+Teacher Feedback
+
+1. My contact and Home pages use the same color contrast for the background (being a light gray) while my portfolio and about me pages use different ones, so make my contact page different.
+
+2. He wishes the site had a bit more "pinache", can i make the site "fun? Especially in a site about myself.
+
+Changes implemented:
+
+1. Adjusted the HTML background in the css used for the contact page to a different shade of gray (#e0e0e0). 
+2. Added a accent border and a box shader to the cards used for the content on the home page. 

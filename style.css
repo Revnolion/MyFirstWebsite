@@ -1,4 +1,5 @@
 html {
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #bcbcbc;
 }
 
@@ -20,6 +21,7 @@ h1 {
     color: navy;
     text-align: left;
     font-size: 36px;
+    text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
 }
 
 main {
@@ -29,29 +31,8 @@ main {
     clear: left;
 }
 
-.hobby-list ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-}
-
-.hobby-list li {
-    background-color: #04AA6d;
-    color: white;
-    padding: 8px 18px;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1em;
-    font-weight: 600;
-}
-
 h2 {
     font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -94,6 +75,8 @@ a:hover {
 .button-link:hover {
     background-color: #058f5c;
     text-decoration: none;
+    box-shadow: 0 0 15px #04AA6d, 0 0 5px #04AA6d;
+    transform: translateY(-2px);
 }
 
 .links a:last-child {
@@ -106,6 +89,13 @@ a:hover {
     padding: 20px 30px;
     border-radius: 8px;
     margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border: 3px solid navy;
+}
+
+.skills h2 {
+    text-align: center;
+    text-shadow: 0 0 4px rgba(4, 170, 109, 0.7);
 }
 
 .skill-list {
@@ -121,14 +111,16 @@ a:hover {
 .skill-list li {
     font-size: 1.1em;
     padding: 10px 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex: 1 1 250px;
     line-height: 1.8;
     color: #333;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .skill-list li .category-title {
     font-weight: bold;
+    text-align: center;
 }
 
 #focus-list h2 {
@@ -138,20 +130,21 @@ a:hover {
     margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
+    animation: pulse 1.5s infinite alternate;
+    text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
 }
 
 #focus-list .skill-list li {
     font-size: 1.1em;
     padding: 10px 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex: 1 1 250px;
     line-height: 1.8;
     color: #333;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 20px;
     margin: 10px;
     background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Class for making images on the page more responsive */
@@ -170,7 +163,7 @@ a:hover {
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     z-index: 1000;
     /* Keeps the navbar on top of other content on the page */
 }
@@ -200,8 +193,11 @@ a:hover {
     align-items: center;
     gap: 30px;
     background-color: white;
-    padding: 30px;
+    padding: 20px 30px;
     border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border: 3px solid navy;
 }
 
 .home-txt {
@@ -215,6 +211,12 @@ a:hover {
 
 footer {
     text-align: center;
+}
+
+@keyframes pulse {
+    0% { border-color: #04AA6d; }
+    40% {border-color: white;}
+    100% {border-color: #04AA6d;}
 }
 
 /*. Media Queries .*/
