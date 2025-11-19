@@ -214,9 +214,17 @@ footer {
 }
 
 @keyframes pulse {
-    0% { border-color: #04AA6d; }
-    40% {border-color: white;}
-    100% {border-color: #04AA6d;}
+    0% {
+        border-color: #04AA6d;
+    }
+
+    40% {
+        border-color: white;
+    }
+
+    100% {
+        border-color: #04AA6d;
+    }
 }
 
 /*. Media Queries .*/
