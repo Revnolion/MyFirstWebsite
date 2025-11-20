@@ -8,10 +8,10 @@
 
 .info-card {
     flex: 2;
-    background-color: #ffffff;
+    background-color: darkgrey;
     padding: 30px;
     border-radius: 8px;
-    margin-top: 20px;
+    border: 2px solid navy;
 }
 
 .info-card h1 {
@@ -21,6 +21,7 @@
 
 .info-card p {
     text-align: center;
+    font-weight: 600;
     margin-bottom: 30px;
     font-size: 1.1em;
     color: #555;
@@ -34,8 +35,8 @@
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    margin-top: 20px;
     text-align: center;
+    border: 2px solid navy;
 }
 
 .my-image img {
@@ -49,9 +50,9 @@
     display: grid;
     /* Creates two columns, one for labels and one for values */
     grid-template-columns: auto 1fr;
-    gap: 20px;
+    gap: 25px;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }
 
 .info-label {
@@ -59,11 +60,14 @@
     font-size: 1.2em;
     color: #333;
     text-align: right;
+    margin: 5px 0;
 }
 
 .info-value {
     font-size: 1.2em;
     color: #555;
+    margin: 5px 0;
+    font-weight: 600;
 }
 
 .info-value a {
@@ -77,8 +81,8 @@
 }
 
 html {
-    background-color: #e0e0e0;
-    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #1e3c72 33.33%, #ffffff 66.67%, #2a5298 100%);
+    min-height: 100vh;
 }
 
 /*. Media Queries .*/

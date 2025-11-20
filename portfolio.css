@@ -58,9 +58,11 @@
 
 p {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 500;
     line-height: 1.6em;
-    margin-bottom: 1em;
+    margin-top: 15px;
+    margin-bottom: 1.5em;
+    text-align: left;
 }
 
 .screenshot-gallery {
@@ -80,27 +82,33 @@ p {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 .Container {
     display: flex;
     flex-direction: column;
-    /* Stacks my different projects vertically */
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 30px;
     width: 90%;
+    margin-bottom: 10px;
     margin: 20px auto;
+    max-width: 1850px;
 
 }
 
 .Column {
     background-color: darkgrey;
     border: 10px solid rgb(63, 77, 136);
-    width: 65%;
-    padding: 25px;
-    margin: 10px auto;
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 25px 40px;
+
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 html {
@@ -109,20 +117,36 @@ html {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 3px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #87CEEB;
+    border-bottom: 1px solid #87CEEB;
+    padding-bottom: 3px;
+    font-size: 1.2em;
 }
 
 .Top {
     color: white;
+    text-align: center;
 }
 
 .tech-list-stacked {
     list-style: none;
     padding: 0;
-    margin: 15px 0;
+    margin: 15px auto 25px auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .tech-list-stacked li {
@@ -139,6 +163,12 @@ footer {
     font-size: 26px;
     font-weight: bolder;
     text-align: center;
+}
+
+.Portfolio-Time {
+    text-align: center;
+    color: white;
+    border-bottom: none;
 }
 
 /*. Media Queries .*/
