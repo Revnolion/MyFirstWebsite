@@ -15,6 +15,7 @@ main {
     font-weight: bold;
     margin-top: 20px;
     color: white;
+    text-shadow: 0 0 10px rgba(4, 170, 109, 0.8);
 }
 
 .Container {
@@ -29,26 +30,37 @@ main {
 
 .Column {
     flex: 1;
-    background-color: rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(30, 30, 30, 0.85);
+    border: 2px solid navy;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.5);
     border-radius: 8px;
-    padding: 25px;
+    padding: 30px;
     margin: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0, 0.6), 0 0 10px navy;
 }
 
 .Column p {
     font-size: 1.1em;
-    font-weight: 300;
-    color: #f0f0f0;
-    line-height: 1.6;
-    margin-bottom: 1.2em;
+    font-weight: 400;
+    color: #e0e0e0;
+    line-height: 1.8; 
+    margin-bottom: 1.5em;
+    text-align: left;
 }
 
 .Column h2 {
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     color: white;
     font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #04AA6d;
 }
 
 /* Media Queries */

@@ -61,15 +61,14 @@
 }
 
 p {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.6em;
-    margin-top: 15px;
-    margin-bottom: 1.5em;
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: left;
-    max-width: 90%; 
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
 }
 
 .screenshot-gallery {
@@ -108,7 +107,7 @@ h1 {
 }
 
 .Column {
-    background-color: lightgrey;
+    background-color: #f4f4f4;
     border: 10px solid rgb(63, 77, 136);
     flex: 1 1 100%;
     width: 100%;
@@ -118,28 +117,53 @@ h1 {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
+.Column a {
+    color: navy; 
+    font-weight: 700; 
+    text-decoration: none; 
+    border-bottom: 1px solid transparent; 
+    transition: all 0.2s ease;
+}
+
+.Column a:hover {
+    border-bottom: 2px solid navy; 
+    background-color: rgba(0, 0, 128, 0.05); 
+}
+
 html {
     background: linear-gradient(120deg, #1e3c72 33.33%, #ffffff 66.67%, #2a5298 100%);
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
+    color: #333;
+    font-weight: normal; 
+    font-size: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.1); 
+    margin: 0;
     text-align: left;
-    margin-top: 0; 
-    margin-bottom: 0; 
-    background-color: rgba(63, 77, 136, 0.2);
-    padding: 8px 10px;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+h2 strong {
+    font-weight: 700; 
+    color: navy; 
+    margin-right: 8px;
+    text-transform: uppercase; 
+    font-size: 0.9em; 
 }
 
 h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    text-align: left;
-    color: black;
-    border-bottom: 1px solid darkgray;
-    padding-bottom: 3px;
-    font-size: 1.2em;
+   color: navy;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 1.1em;
+   letter-spacing: 0.5px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   text-align: left;
+   border-bottom: 2px solid navy; 
+   padding-bottom: 5px;
 }
 
 .Top {
@@ -157,20 +181,20 @@ h3 {
 }
 
 .tech-list-stacked li {
-    background-color: #555;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+    background-color: transparent;
+    color: navy; 
+    border: 2px solid navy; 
+    border-radius: 6px; 
+    padding: 5px 12px;
     font-size: 0.9em;
-    font-weight: 500;
-    border: 1px solid #87CEEB; 
-    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 700;
+    transition: all 0.2s ease;
 }
 
 .tech-list-stacked li:hover {
-    background-color: #666;
-    transform: translateY(-2px); 
-    box-shadow: 0 0 8px #87CEEB; 
+    background-color: navy;
+    color: white;
+    cursor: default;
 }
 
 footer {
