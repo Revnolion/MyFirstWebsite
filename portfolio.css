@@ -25,44 +25,51 @@
 
 
 .navbar {
-    background-color: #333;
+    background-color: rgba(30, 60, 114, 0.95);
     display: flex;
-    gap: 5px;
-    flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 0;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #04AA6d;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .navbar a {
     text-align: center;
-    padding: 10px 12px;
-    font-size: 16px;
-    background-color: white;
-    color: #333;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: transparent; 
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar a:hover {
-    background-color: #969696;
-    color: black;
+    background-color: transparent; 
+    color: #04AA6d; 
+    transform: translateY(-2px);
 }
 
 .navbar a.active {
-    background-color: #04AA6d;
-    color: white;
-    font-weight: bold;
+    background-color: transparent; 
+    color: #04AA6d;
+    border-bottom: 2px solid #04AA6d;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.6em;
     margin-top: 15px;
     margin-bottom: 1.5em;
     text-align: left;
+    max-width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .screenshot-gallery {
@@ -101,14 +108,14 @@ h1 {
 }
 
 .Column {
-    background-color: darkgrey;
+    background-color: lightgrey;
     border: 10px solid rgb(63, 77, 136);
     flex: 1 1 100%;
     width: 100%;
     padding: 25px 40px;
-
     border-radius: 8px;
     box-sizing: border-box;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
 html {
@@ -118,10 +125,10 @@ html {
 
 h2 {
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
-    padding-bottom: 3px;
+    margin-top: 0; 
+    margin-bottom: 0; 
+    background-color: rgba(63, 77, 136, 0.2);
+    padding: 8px 10px;
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
@@ -129,8 +136,8 @@ h3 {
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: left;
-    color: #87CEEB;
-    border-bottom: 1px solid #87CEEB;
+    color: black;
+    border-bottom: 1px solid darkgray;
     padding-bottom: 3px;
     font-size: 1.2em;
 }
@@ -156,6 +163,14 @@ h3 {
     border-radius: 5px;
     font-size: 0.9em;
     font-weight: 500;
+    border: 1px solid #87CEEB; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.tech-list-stacked li:hover {
+    background-color: #666;
+    transform: translateY(-2px); 
+    box-shadow: 0 0 8px #87CEEB; 
 }
 
 footer {
@@ -171,10 +186,20 @@ footer {
     border-bottom: none;
 }
 
+.sample-img, .responsive_img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sample-img:hover, .responsive_img:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); 
+    cursor: pointer;
+}
+
 /*. Media Queries .*/
 
 @media screen and (max-width: 600px) {
-    .project-img-gallery {
+    .project-img-gallery, .screenshot-gallery {
         flex-direction: column;
         align-items: center;
     }
@@ -211,9 +236,12 @@ footer {
     }
 
     .responsive_img,
+    .sample-img,
     .project-img-gallery img {
         max-width: 100%;
         box-sizing: border-box;
+        width: 100%;
+        flex: 1 1 auto;
     }
 
     p {

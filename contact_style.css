@@ -8,7 +8,7 @@
 
 .info-card {
     flex: 2;
-    background-color: darkgrey;
+    background-color: lightgray;
     padding: 30px;
     border-radius: 8px;
     border: 2px solid navy;

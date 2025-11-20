@@ -85,7 +85,7 @@ a:hover {
 }
 
 .skills {
-    background-color: white;
+    background-color: lightgray;
     padding: 20px 30px;
     border-radius: 8px;
     margin-top: 20px;
@@ -163,43 +163,46 @@ a:hover {
 
 /* This section adjusts the navbar css code */
 .navbar {
-    background-color: #333;
+    background-color: rgba(30, 60, 114, 0.95);
     display: flex;
-    gap: 5px;
-    flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 0;
+    top: 0;
     z-index: 1000;
-    /* Keeps the navbar on top of other content on the page */
+    border-bottom: 3px solid #04AA6d;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .navbar a {
     text-align: center;
-    padding: 10px 12px;
-    font-size: 16px;
-    background-color: white;
-    color: #333;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: transparent; 
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar a:hover {
-    background-color: #969696;
-    color: black;
+    background-color: transparent; 
+    color: #04AA6d; 
+    transform: translateY(-2px);
 }
 
 .navbar a.active {
-    background-color: #04AA6d;
-    color: white;
+    background-color: transparent; 
+    color: #04AA6d;
+    border-bottom: 2px solid #04AA6d;
 }
 
 .home {
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: white;
+    background-color: lightgray;
     padding: 20px 30px;
     border-radius: 8px;
     margin-top: 20px;
