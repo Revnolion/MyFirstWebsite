@@ -1,4 +1,4 @@
-.contact-wrapper {
+.contact-wrapper { /* Uses Flexbox to put the Info Card (left) and Photo (right) side-by-side. */
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -6,7 +6,7 @@
     margin-top: 30px;
 }
 
-.info-card {
+.info-card { /* Styles the white box containing contact details (Navy border, padding). */
     flex: 2;
     background-color: lightgray;
     padding: 30px;
@@ -14,7 +14,7 @@
     border: 2px solid navy;
 }
 
-.info-card h1 {
+.info-card h1 { 
     text-align: center;
     margin-top: 0;
 }
@@ -28,9 +28,8 @@
     line-height: 1.6;
 }
 
-.my-image {
-    flex: 1;
-    /* Takes up a 1/3 of the space of the flex container */
+.my-image { /* Styles the container for my photo, which I still need to update cause of how old it is (White "Polaroid" look, shadow). */
+    flex: 1; /* Takes up a 1/3 of the space of the flex container */
     min-width: 250px;
     background-color: #ffffff;
     padding: 20px;
@@ -48,21 +47,20 @@
     border-radius: 8px;
 }
 
-.my-image:hover {
+.my-image:hover { /* Adds a slight rotation/tilt effect. */
     transform: rotate(2deg) scale(1.02);
 }
 
 
-.info-grid {
+.info-grid { /* Uses CSS Grid to align labels (Name, Email) perfectly with their values. */
     display: grid;
-    /* Creates two columns, one for labels and one for values */
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr; /* First column takes size of text, second column fills the rest. */
     gap: 25px;
     max-width: 700px;
     margin: 0 auto 30px auto;
 }
 
-.info-label {
+.info-label { /* Styles the text inside the grid (Aligns labels to the right, makes them bold). */
     font-weight: bold;
     font-size: 1.2em;
     color: #333;
@@ -70,7 +68,7 @@
     margin: 5px 0;
 }
 
-.info-value {
+.info-value { /* Same effect essentially as .info-label */
     font-size: 1.2em;
     color: #555;
     margin: 5px 0;

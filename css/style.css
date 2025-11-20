@@ -1,9 +1,9 @@
-html {
+html { /* Sets the font for the whole site and applies the main Blue/White/Navy diagonal gradient background. */
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(120deg, #1e3c72 33.33%, #ffffff 66.67%, #2a5298 100%);
 }
 
-p {
+p { /* Sets default paragraph color to gray and spaces them out to improve readability. */
     color: #333;
     font-size: 1.1em;
     font-weight: normal;
@@ -11,31 +11,25 @@ p {
     line-height: 1.6;
 }
 
-footer {
-    color: black;
-    font-size: 26px;
-    font-weight: bolder;
-}
-
-h1 {
+h1 { /* Styles main page titles with Navy text and a subtle Green glowing text shadow. */
     color: navy;
     text-align: left;
     font-size: 36px;
     text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
 }
 
-main {
+main { /* Centers the main content on the screen, restricts the width to 90% (max 1200px), and adds top/bottom margins. */
     width: 90%;
     margin: 20px auto;
     max-width: 1200px;
     clear: left;
 }
 
-h2 {
+h2 { /* Sets the default size for secondary headers. */
     font-size: 24px;
 }
 
-a {
+a { /* Global link styling (Green color, bold text). */
     font-size: 1.1em;
     text-align: center;
     color: #04aa6d;
@@ -44,25 +38,25 @@ a {
 
 }
 
-a:hover {
+a:hover { 
     text-decoration: underline;
 }
 
-.mission {
+.mission { /* Styles the specific "Mission Statement" paragraph on the homepage (italicized).*/
     font-style: italic;
     font-size: 1.2em;
     color: #444;
     margin-bottom: 25px;
 }
 
-.links {
+.links { /* Uses Flexbox to align the "View Portfolio" and "LinkedIn" buttons side-by-side. */
     display: flex;
     gap: 20px;
     margin-top: 30px;
     align-items: center;
 }
 
-.button-link {
+.button-link { /* Styles the green "View Portfolio" button (padding, rounded corners). */
     background-color: #04AA6d;
     color: white;
     padding: 10px 20px;
@@ -73,24 +67,24 @@ a:hover {
     transition: all 0.2s ease-in-out;
 }
 
-.button-link:hover {
+.button-link:hover { /* Adds the "lift up" animation and shadow when hovering */
     background-color: #058f5c;
     text-decoration: none;
     box-shadow: 0 6px 12px rgba(4, 170, 109, 0.4);
     transform: translateY(-3px);
 }
 
-.button-link:active {
+.button-link:active { /* Adds the "press down" effect when clicking. */
     transform: translateY(0px); 
     box-shadow: 0 2px 4px rgba(4, 170, 109, 0.4); 
 }
 
-.links a:last-child {
+.links a:last-child { 
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.skills {
+.skills { /* Styles the white card containers on the homepage (Navy border, shadow, white background). */
     background-color: lightgray;
     padding: 20px 30px;
     border-radius: 8px;
@@ -99,14 +93,14 @@ a:hover {
     border: 3px solid navy;
 }
 
-.skills h2 {
+.skills h2 { /* Adds the Green Glow and Pulse animation to the "Skills" header inside the box. */
     text-align: center;
     text-shadow: 0 0 4px rgba(4, 170, 109, 0.7);
     animation: pulse 1.5s infinite alternate;
     border-bottom: 2px solid #04AA6d;
 }
 
-.skill-list {
+.skill-list { /* Uses Flexbox to arrange skill items in a row that wraps. */
     list-style: none;
     padding: 0;
     margin-top: 20px;
@@ -116,7 +110,7 @@ a:hover {
     text-align: center;
 }
 
-.skill-list li {
+.skill-list li { /* Styles the individual skill boxes (white background, shadow, hover lift effect). */
     font-size: 1.1em;
     padding: 10px 15px;
     flex: 1 1 250px;
@@ -132,7 +126,7 @@ a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skill-list li:hover {
+.skill-list li:hover { 
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     border-color: navy; 
@@ -143,7 +137,7 @@ a:hover {
     text-align: center;
 }
 
-#focus-list h2 {
+#focus-list h2 { /* Overrides specific styles for the "Current Focus" section to give it the unique border and pulse animation. */
     color: navy;
     border-bottom: 2px solid #04AA6d;
     padding-bottom: 5px;
@@ -154,7 +148,7 @@ a:hover {
     text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
 }
 
-#focus-list .skill-list li {
+#focus-list .skill-list li { /* Styles the specific "Mission Statement" paragraph on the homepage (italicized).*/
     font-size: 1.1em;
     padding: 10px 15px;
     flex: 1 1 250px;
@@ -167,7 +161,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Class for making images on the page more responsive */
+/* Ensures images never exceed the width of their container (prevents horizontal scrolling). */
 .responsive_img {
     max-width: 100%;
     height: auto;
@@ -211,7 +205,7 @@ a:hover {
     border-bottom: 2px solid #04AA6d;
 }
 
-.home {
+.home { /* Uses Flexbox to put the intro text (.home-txt) and the image of my cat (.home-img) side-by-side. */
     display: flex;
     align-items: center;
     gap: 30px;
@@ -232,7 +226,7 @@ a:hover {
     text-align: center;
 }
 
-footer {
+footer { /* Styles the footer bar (white text, semi-transparent black background, green top border) to visually anchor the bottom of the page. */
     color: white;
     font-size: 18px; 
     font-weight: bold;
@@ -244,7 +238,7 @@ footer {
     border-top: 3px solid #04AA6d; 
 }
 
-@keyframes pulse {
+@keyframes pulse { /* Defines the animation that makes the Green borders/text glow pulse in and out. */
     0% {
         border-color: #04AA6d;
     }

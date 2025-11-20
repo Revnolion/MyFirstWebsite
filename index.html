@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Home">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Home"> <!-- Ensures the page scales correctly on mobile devices (essential for responsiveness). -->
   <title>Home</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css"> <!-- Links to style.css -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- Links to Google Fonts (Open Sans) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- Links to Font Awesome -->
 </head>
 
 <body>
-  <header>
+  <header> <!-- Contains the main site navigation links. The "active" class highlights the current page. -->
     <div class="navbar">
       <a class="active" href="index.html">Home</a>
       <a href="about.html">About Me</a>
@@ -33,7 +33,7 @@
           bar above to explore my work and key development skills.
         </p>
 
-        <div class="links">
+        <div class="links"> <!-- Wraps the "View My Portfolio" button and LinkedIn link. -->
           <a href="portfolio.html" class="button-link">
             <i class="fas fa-gamepad" style="margin-right: 8px;"></i> View My Portfolio »
           </a>
@@ -41,13 +41,13 @@
         </div>
       </div>
 
-      <div class="home-img">
+      <div class="home-img"> <!-- Contains the image of my cat (cat.jpg) with the .responsive_img class so it scales down on small screens. -->
         <img src="images/cat.jpg" alt="Jasper, my cat" class="responsive_img" />
       </div>
 
     </section>
 
-    <section id="focus-list" class="skills">
+    <section id="focus-list" class="skills"> <!-- A specialized list showing what I'm currently learning.-->
       <h2>Current Focus & Learning</h2>
       <ul class="skill-list">
         <li><span class="category-title">Godot & Scripting:</span> Deepening knowledge in GDScript for efficient,
@@ -59,7 +59,7 @@
       </ul>
     </section>
 
-    <section class="skills">
+    <section class="skills"> <!-- Displays my main technical skills. -->
       <h2>Skills</h2>
       <ul class="skill-list">
         <li><span class="category-title">Programming Languages:</span> HTML, CSS, GDScript (Godot), Python</li>
@@ -69,7 +69,7 @@
     </section>
 
   </main>
-  <footer>&copy; 2025 Evan Johnson</footer>
+  <footer>&copy; 2025 Evan Johnson</footer> <!-- Shows copyright info at the bottom. -->
 </body>
 
 </html>
