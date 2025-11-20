@@ -70,13 +70,19 @@ a:hover {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
+    transition: all 0.2s ease-in-out;
 }
 
 .button-link:hover {
     background-color: #058f5c;
     text-decoration: none;
-    box-shadow: 0 0 15px #04AA6d, 0 0 5px #04AA6d;
-    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(4, 170, 109, 0.4);
+    transform: translateY(-3px);
+}
+
+.button-link:active {
+    transform: translateY(0px); 
+    box-shadow: 0 2px 4px rgba(4, 170, 109, 0.4); 
 }
 
 .links a:last-child {
@@ -123,6 +129,13 @@ a:hover {
     margin: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-list li:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-color: navy; 
 }
 
 .skill-list li .category-title {
@@ -220,7 +233,15 @@ a:hover {
 }
 
 footer {
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 20px 0; 
+    margin-top: 50px; 
+    width: 100%; 
+    border-top: 3px solid #04AA6d; 
 }
 
 @keyframes pulse {
