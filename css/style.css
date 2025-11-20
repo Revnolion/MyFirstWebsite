@@ -172,14 +172,14 @@ a:hover {
     top: 0;
     z-index: 1000;
     border-bottom: 3px solid #04AA6d;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar a {
     text-align: center;
     padding: 5px 10px;
     font-size: 18px;
-    background-color: transparent; 
+    background-color: transparent;
     color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
@@ -187,13 +187,13 @@ a:hover {
 }
 
 .navbar a:hover {
-    background-color: transparent; 
-    color: #04AA6d; 
+    background-color: transparent;
+    color: #04AA6d;
     transform: translateY(-2px);
 }
 
 .navbar a.active {
-    background-color: transparent; 
+    background-color: transparent;
     color: #04AA6d;
     border-bottom: 2px solid #04AA6d;
 }
