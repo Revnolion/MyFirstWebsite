@@ -1,15 +1,18 @@
-html { /* Overrides background color globally with a darker gradient specific to this page */
+html {
+    /* Overrides background color globally with a darker gradient specific to this page */
     background: linear-gradient(to bottom, #1e3c72, #a9d6e5, #2a5298);
     background-color: #1e3c72;
     min-height: 100vh;
 }
 
-main { /* Removes the max-width constraint so the columns can stretch across the whole screen */
+main {
+    /* Removes the max-width constraint so the columns can stretch across the whole screen */
     max-width: none;
     width: 95%;
 }
 
-.title { /* Styles the About Me! header */
+.title {
+    /* Styles the About Me! header */
     text-align: center;
     font-size: 38px;
     font-weight: bold;
@@ -18,7 +21,8 @@ main { /* Removes the max-width constraint so the columns can stretch across the
     text-shadow: 0 0 10px rgba(4, 170, 109, 0.8);
 }
 
-.Container { /* Uses a flexbox to arrange the columns side by side with a gap */
+.Container {
+    /* Uses a flexbox to arrange the columns side by side with a gap */
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -28,7 +32,8 @@ main { /* Removes the max-width constraint so the columns can stretch across the
 
 }
 
-.Column { /* Styles the three main boxes and adds a navy colored border and a drop shadow */
+.Column {
+    /* Styles the three main boxes and adds a navy colored border and a drop shadow */
     flex: 1;
     background-color: rgba(30, 30, 30, 0.85);
     border: 2px solid navy;
@@ -39,12 +44,14 @@ main { /* Removes the max-width constraint so the columns can stretch across the
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Column:hover { /* Makes the column float up slightly when hovered over */
+.Column:hover {
+    /* Makes the column float up slightly when hovered over */
     transform: translateY(-5px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6), 0 0 10px navy;
 }
 
-.Column p { /* Sets text to light gray */
+.Column p {
+    /* Sets text to light gray */
     font-size: 1.1em;
     font-weight: 400;
     color: #e0e0e0;
@@ -53,7 +60,8 @@ main { /* Removes the max-width constraint so the columns can stretch across the
     text-align: left;
 }
 
-.Column h2 { /* Adjusts font-size, aligns text to the center, adjusts font-weight, and creates green-underline to the headers */
+.Column h2 {
+    /* Adjusts font-size, aligns text to the center, adjusts font-weight, and creates green-underline to the headers */
     font-size: 24px;
     text-align: center;
     color: white;

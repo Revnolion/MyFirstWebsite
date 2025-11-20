@@ -1,4 +1,5 @@
-.project-img-gallery { /* Uses Flexbox to arrange project screenshots side-by-side. */
+.project-img-gallery {
+    /* Uses Flexbox to arrange project screenshots side-by-side. */
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -24,7 +25,8 @@
 }
 
 
-.navbar { /* Duplicate of Global navbar. Essential here because this page doesn't link to style.css on purpose. Defines the Navy navigation bar. */
+.navbar {
+    /* Duplicate of Global navbar. Essential here because this page doesn't link to style.css on purpose. Defines the Navy navigation bar. */
     background-color: rgba(30, 60, 114, 0.95);
     display: flex;
     justify-content: center;
@@ -60,7 +62,8 @@
     border-bottom: 2px solid #04AA6d;
 }
 
-p { /* Styles paragraph text. */
+p {
+    /* Styles paragraph text. */
     color: #4a4a4a;
     font-size: 18px;
     font-weight: 400;
@@ -87,14 +90,16 @@ p { /* Styles paragraph text. */
     border-radius: 8px;
 }
 
-h1 { /* Styles the main Project Title (White text, Green Glow). */
+h1 {
+    /* Styles the main Project Title (White text, Green Glow). */
     text-align: left;
     text-shadow: 0 0 5px rgba(4, 170, 109, 0.6);
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.Container { /* Sets up a Vertical Column layout (stacked on top of each other). */
+.Container {
+    /* Sets up a Vertical Column layout (stacked on top of each other). */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -106,7 +111,8 @@ h1 { /* Styles the main Project Title (White text, Green Glow). */
 
 }
 
-.Column { /* Styles the project boxes to be White with a Navy Border and shadow. */
+.Column {
+    /* Styles the project boxes to be White with a Navy Border and shadow. */
     background-color: lightgray;
     border: 10px solid rgb(63, 77, 136);
     flex: 1 1 100%;
@@ -117,7 +123,8 @@ h1 { /* Styles the main Project Title (White text, Green Glow). */
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
-.Column a { /* Styles links inside the projects to be Navy Blue with a bold underline on hover. */
+.Column a {
+    /* Styles links inside the projects to be Navy Blue with a bold underline on hover. */
     color: navy;
     font-weight: 700;
     text-decoration: none;
@@ -135,7 +142,8 @@ html {
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2 { /* Styles the metadata lines (Engine, Release Date), and adds the border-bottom for the subtle divider line. */
+h2 {
+    /* Styles the metadata lines (Engine, Release Date), and adds the border-bottom for the subtle divider line. */
     color: #333;
     font-weight: normal;
     font-size: 16px;
@@ -145,7 +153,8 @@ h2 { /* Styles the metadata lines (Engine, Release Date), and adds the border-bo
     text-align: left;
 }
 
-h2 strong { /* Target strong to make the label (e.g., "ENGINE:") bold and navy to better emphasize the text. */
+h2 strong {
+    /* Target strong to make the label (e.g., "ENGINE:") bold and navy to better emphasize the text. */
     font-weight: 700;
     color: navy;
     margin-right: 8px;
@@ -153,7 +162,8 @@ h2 strong { /* Target strong to make the label (e.g., "ENGINE:") bold and navy t
     font-size: 0.9em;
 }
 
-h3 { /* Styles headers like "SKILLS" to be uppercase, bold, navy, and underlined. */
+h3 {
+    /* Styles headers like "SKILLS" to be uppercase, bold, navy, and underlined. */
     color: navy;
     font-weight: 700;
     text-transform: uppercase;
@@ -171,7 +181,8 @@ h3 { /* Styles headers like "SKILLS" to be uppercase, bold, navy, and underlined
     text-align: center;
 }
 
-.tech-list-stacked { /* Styles the skills tags. */
+.tech-list-stacked {
+    /* Styles the skills tags. */
     list-style: none;
     padding: 0;
     margin: 15px auto 25px auto;
@@ -197,16 +208,17 @@ h3 { /* Styles headers like "SKILLS" to be uppercase, bold, navy, and underlined
     cursor: default;
 }
 
-footer { /* Duplicate of the footer bar used in style.css, again because of style.css not being linked. */
+footer {
+    /* Duplicate of the footer bar used in style.css, again because of style.css not being linked. */
     color: white;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3); 
-    padding: 20px 0; 
-    margin-top: 50px; 
-    width: 100%; 
-    border-top: 3px solid #04AA6d; 
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+    border-top: 3px solid #04AA6d;
 }
 
 .Portfolio-Time {
