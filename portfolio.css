@@ -107,7 +107,7 @@ h1 {
 }
 
 .Column {
-    background-color: #f4f4f4;
+    background-color: lightgray;
     border: 10px solid rgb(63, 77, 136);
     flex: 1 1 100%;
     width: 100%;
