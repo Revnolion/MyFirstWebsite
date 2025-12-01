@@ -241,7 +241,8 @@ footer {
 
 /*. Media Queries .*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) 
+{
 
     .project-img-gallery,
     .screenshot-gallery {
