@@ -1,18 +1,16 @@
 .project-img-gallery {
     /* Uses Flexbox to arrange project screenshots side-by-side. */
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border: 1px solid #777;
 }
 
 .sample-img {
     flex: 1 1 48%;
-    max-width: 100%;
+    max-width: 48%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
@@ -22,6 +20,9 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

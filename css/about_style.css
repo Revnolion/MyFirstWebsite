@@ -74,7 +74,7 @@ main {
 /* Media Queries */
 
 /* Stacks the three columns when viewed on a tablet */
-@media only screen and (max-width: 932px) {
+@media only screen and (max-width: 1200px) {
     .Container {
         flex-direction: column;
     }
